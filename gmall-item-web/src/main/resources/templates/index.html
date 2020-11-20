@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+
+        hello thymeleaf!!!
+        <br>
+        kkkkk
+        <!--取值,传参-->
+        <p th:text="${hello}">打底值<p/>
+
+        <!--循环-->
+        <p th:each="str:${list}" th:text="${str}"><p/>
+
+        <p th:each="str:${list}">
+            <input th:text="${str}" value="111111111111"/>
+
+        </p>
+
+        <p th:each="str:${list}">
+            <input th:text="${str}" th:value="${str}" value="2222222222"/>
+
+        </p>
+
+        <!--判断-->
+        <p th:if="1==1">判断显示内容</p>
+
+        <!--根据就收check选择  勾选状态-->
+        <input type="checkbox" th:checked="(${check}=='1')?'1':'不是1'" />
+
+        <!--页面引入-->
+        <div th:include="indexInner::innerPart">被引入的页面</div>
+
+
+
+        <!--传值给js-->
+        <a th:href="'javascript:a(\''+${hello}+'\')'">点我</a>
+
+<script language="JavaScript">
+    function a(hello) {
+        alert("无聊!"+hello);
+    }
+</script>
+
+
+
+</body>
+
+</html>

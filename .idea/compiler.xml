@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs-client-java" />
+        <module name="gmall-api" />
+        <module name="gmall-cart-service" />
+        <module name="gmall-cart-web" />
+        <module name="gmall-common-util" />
+        <module name="gmall-item-web" />
+        <module name="gmall-manage-service" />
+        <module name="gmall-manage-web" />
+        <module name="gmall-order-service" />
+        <module name="gmall-order-web" />
+        <module name="gmall-passport-web" />
+        <module name="gmall-payment" />
+        <module name="gmall-redisson-test" />
+        <module name="gmall-search-service" />
+        <module name="gmall-search-web" />
+        <module name="gmall-seckill" />
+        <module name="gmall-service-util" />
+        <module name="gmall-user" />
+        <module name="gmall-user-service" />
+        <module name="gmall-user-web" />
+        <module name="gmall-web-util" />
+        <module name="gmall-wuminghui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.6" />
+      <module name="gmall-api" target="1.8" />
+      <module name="gmall-cart-service" target="1.8" />
+      <module name="gmall-cart-web" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-item-web" target="1.8" />
+      <module name="gmall-manage-service" target="1.8" />
+      <module name="gmall-manage-web" target="1.8" />
+      <module name="gmall-order-service" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-passport-web" target="1.8" />
+      <module name="gmall-payment" target="1.8" />
+      <module name="gmall-redisson-test" target="1.8" />
+      <module name="gmall-search-service" target="1.8" />
+      <module name="gmall-search-web" target="1.8" />
+      <module name="gmall-seckill" target="1.8" />
+      <module name="gmall-service-util" target="1.8" />
+      <module name="gmall-user" target="1.8" />
+      <module name="gmall-user-service" target="1.8" />
+      <module name="gmall-user-web" target="1.8" />
+      <module name="gmall-web-util" target="1.8" />
+      <module name="gmall-wuminghui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
